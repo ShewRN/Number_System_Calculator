@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище gr691_shrnModelContainer" CdmEntityContainer="gr691_shrnEntities">
+    <EntitySetMapping Name="TRPO_Practice">
+      <EntityTypeMapping TypeName="gr691_shrnModel.TRPO_Practice">
+        <MappingFragment StoreEntitySet="TRPO_Practice">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="result" ColumnName="result" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

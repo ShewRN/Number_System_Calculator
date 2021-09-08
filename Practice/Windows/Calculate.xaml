@@ -1,0 +1,31 @@
+﻿<Window x:Class="Practice.Calculate"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practice"
+        mc:Ignorable="d"
+        Title="Вычисления" Height="270.5" Width="770" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button Content="Вычислить" IsDefault="True" HorizontalAlignment="Left" Margin="441,130,0,0" VerticalAlignment="Top" Width="115" Click="Calc_Click"/>
+        <TextBox Name="Numb1" PreviewTextInput="Digit_Check" HorizontalAlignment="Left" Height="23" Margin="200,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" TextAlignment="Center" CaretBrush="{x:Null}"/>
+        <TextBlock Name="Result" HorizontalAlignment="Left" Margin="341,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" FontSize="18"/>
+        <Label Content="Вычислить числа" HorizontalAlignment="Left" Margin="33,84,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <Label Content="и" HorizontalAlignment="Left" Margin="303,84,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label Content="в" HorizontalAlignment="Left" Margin="432,84,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label Content="Результат:" HorizontalAlignment="Left" Margin="239,173,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <Label Content="-ной системе счисления" HorizontalAlignment="Left" Margin="502,84,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Border BorderBrush="Black"  BorderThickness="1" HorizontalAlignment="Left" Height="18" Margin="199,92,0,0" VerticalAlignment="Top" Width="98"/>
+        <TextBox Name="Numb2" PreviewTextInput="Digit_Check" HorizontalAlignment="Left" Height="23" Margin="329,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" TextAlignment="Center" CaretBrush="{x:Null}"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="18" Margin="329,92,0,0" VerticalAlignment="Top" Width="98"/>
+        <TextBox Name="Systm" PreviewTextInput="Digit_Check" HorizontalAlignment="Left" Height="23" Margin="454,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" TextAlignment="Center" CaretBrush="{x:Null}"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="18" Margin="454,92,0,0" VerticalAlignment="Top" Width="48"/>
+        <ComboBox Name="Cb_Operation" SelectedIndex="0" HorizontalAlignment="Left" Margin="282,130,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="14">
+            <TextBlock>Сложение</TextBlock>
+            <TextBlock>Вычитание</TextBlock>
+            <TextBlock>Умножение</TextBlock>
+        </ComboBox>
+
+    </Grid>
+</Window>

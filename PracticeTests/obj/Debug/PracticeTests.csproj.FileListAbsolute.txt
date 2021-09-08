@@ -1,0 +1,12 @@
+Z:\ТРПО\Практика\Practice\PracticeTests\bin\Debug\PracticeTests.dll
+Z:\ТРПО\Практика\Practice\PracticeTests\bin\Debug\PracticeTests.pdb
+Z:\ТРПО\Практика\Practice\PracticeTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+Z:\ТРПО\Практика\Practice\PracticeTests\bin\Debug\Practice.exe
+Z:\ТРПО\Практика\Practice\PracticeTests\bin\Debug\Practice.pdb
+Z:\ТРПО\Практика\Practice\PracticeTests\bin\Debug\Practice.exe.config
+Z:\ТРПО\Практика\Practice\PracticeTests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+Z:\ТРПО\Практика\Practice\PracticeTests\obj\Debug\PracticeTests.csprojAssemblyReference.cache
+Z:\ТРПО\Практика\Practice\PracticeTests\obj\Debug\PracticeTests.csproj.CoreCompileInputs.cache
+Z:\ТРПО\Практика\Practice\PracticeTests\obj\Debug\PracticeTests.csproj.CopyComplete
+Z:\ТРПО\Практика\Practice\PracticeTests\obj\Debug\PracticeTests.dll
+Z:\ТРПО\Практика\Practice\PracticeTests\obj\Debug\PracticeTests.pdb
